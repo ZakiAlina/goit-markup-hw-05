@@ -116,6 +116,12 @@ img {
 /*-------HEADER-------*/
 
 .header {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--background-color);
     border-bottom: 1px solid var(--gorizontal-header-line);
 }
 
